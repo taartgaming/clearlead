@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title data-i18n="portfolio_title">Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <!-- Left: logo -->
+            <div class="header-left">
+                <img src="img/IMG-20251029-WA0001.jpg" alt="Company logo" class="header-logo">
+            </div>
+
+            <!-- Center: navigation -->
+            <nav class="main-nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle navigation">☰</button>
+                <ul id="primary-menu" class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></li>
+                    <li><a href="portfolio.html" class="nav-link" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="reserve.html" class="nav-link" data-i18n="nav_reserve">Reserve</a></li>
+                    <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                    <li><a href="algemene-voorwaarden.html" class="nav-link" data-i18n="nav_terms">Terms</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">About</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right: language selector and profile -->
+            <div class="header-right">
+                <div class="lang-switcher lang-switcher--mobile" role="group" aria-label="Language selector">
+                    <button type="button" class="lang-btn" data-lang="en" aria-label="English">🇬🇧</button>
+                    <button type="button" class="lang-btn" data-lang="nl" aria-label="Nederlands">🇳🇱</button>
+                </div>
+                <button class="profile-btn" aria-label="Profile">👤</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 data-i18n="portfolio_heading">Portfolio</h2>
+            <p data-i18n="portfolio_intro">Projects are displayed below. Click a card to learn more.</p>
+
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image-placeholder"></div>
+                    <div class="project-content">
+                        <h3 data-i18n="project_title_1">example project</h3>
+                        <p data-i18n="project_desc_1">example text.</p>
+                        <a href="#" class="project-link" data-i18n="learn_more">View project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder"></div>
+                    <div class="project-content">
+                        <h3 data-i18n="project_title_2">example project</h3>
+                        <p data-i18n="project_desc_2">example text.</p>
+                        <a href="#" class="project-link" data-i18n="learn_more">View project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder"></div>
+                    <div class="project-content">
+                        <h3 data-i18n="project_title_3">example project</h3>
+                        <p data-i18n="project_desc_3">example text.</p>
+                        <a href="#" class="project-link" data-i18n="learn_more">View project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder"></div>
+                    <div class="project-content">
+                        <h3 data-i18n="project_title_4">example project</h3>
+                        <p data-i18n="project_desc_4">example text.</p>
+                        <a href="#" class="project-link" data-i18n="learn_more">View project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <img src="img/IMG-20251029-WA0003.jpg" alt="Footer image" class="footer-image">
+            <div class="footer-info">
+                <p data-i18n="footer_copyright">© 2025 Your Company. All rights reserved.</p>
+                <div class="socials" aria-label="Social links">
+                    <a href="#" class="social" aria-label="Twitter">Twitter</a>
+                    <a href="#" class="social" aria-label="LinkedIn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js" defer></script>
+</body>
+</html>
